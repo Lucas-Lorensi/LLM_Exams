@@ -73,7 +73,7 @@ Download and install Ollama based on your operating system:
 Pull the DeepSeek 8B model using Ollama:
 
 ```bash
-ollama pull deepseek:8b-instruct
+ollama pull deepseek:8b-r1
 ```
 
 This will download approximately 4.5GB of model data. The download time will vary based on your internet connection.
