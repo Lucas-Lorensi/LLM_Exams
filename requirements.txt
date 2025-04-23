@@ -1,0 +1,6 @@
+gradio
+PyMuPDF
+langchain
+sentence-transformers
+unstructured
+pdf2image

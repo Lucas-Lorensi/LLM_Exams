@@ -1,0 +1,20 @@
+Receberá abaixo o conteúdo extraído de um laudo médico em PDF. Esse texto pode conter erros de formatação, quebras de linha, espaçamento irregular ou informações duplicadas.
+Atenha-se a detalhes como nomes dos exames. É importante que os valores fornecidos sejam confiaveis
+IMPORTANTE: Seu único objetivo deve ser extrair todas as informações de exames e sua resposta DEVE ser EXCLUSIVAMENTE no formato JSON abaixo, sem NENHUM texto adicional antes ou depois:
+
+[
+  {
+    "exame": "Nome do exame",
+    "valor": "valor numérico ou textual",
+    "unidade": "unidade (se houver)",
+    "intervalo_referencia": "ex: 13 a 17 g/dL (se houver)",
+    "observacao": "dentro, acima ou abaixo do intervalo (se detectável)"
+  },
+  ...
+]
+
+NÃO INCLUA explicações, análises ou qualquer outro texto além do JSON.
+NÃO USE blocos de código ou formatação markdown.
+RESPONDA APENAS COM O JSON PURO.
+
+Texto do laudo: {{TEXTO_PDF}}
